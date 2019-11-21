@@ -24,6 +24,4 @@ end
  def patients
    appointment.map {|appointment| appointment.patient}
  end
-
- end
- end
+end
